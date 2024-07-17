@@ -76,22 +76,22 @@
         </fieldset>
       </ion-item>
     </div>
-
-    <div class="RadioBut" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;">
+    <br>
+    <div class="RadioBut" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
       <ion-item lines="none" style="display: flex; flex-direction: row; align-items: center; max-width: 500px; width: 100%;">
-        <ion-radio-group style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" [(ngModel)]="hasarDurumu">
-          <ion-item style="flex: 1; text-align: center;">
-            <ion-label style="width: fit-content; font-size: 16px; white-space: normal;">Hasarlı</ion-label>
+        <ion-radio-group style="display: flex; flex-direction: row; justify-content: space-between; width: 500px;" [(ngModel)]="hasarDurumu">
+          <ion-item style="text-align: center;">
+            <ion-label style="width: fit-content; font-size: 16px; white-space: nowrap;">Hasarlı</ion-label>
             <ion-radio slot="start" value="hasarlı"></ion-radio>
           </ion-item>
-          <ion-item style="flex: 1; text-align: center;">
-            <ion-label style="width: fit-content; font-size: 16px; white-space: normal;">Hasarsız</ion-label>
+          <ion-item style="text-align: center;">
+            <ion-label style="width: fit-content; font-size: 16px; white-space: nowrap;">Hasarsız</ion-label>
             <ion-radio slot="start" value="hasarsız"></ion-radio>
           </ion-item>
         </ion-radio-group>
       </ion-item>
     </div>
-    
+    <br>
     <ion-button class="login-button2" (click)="kaydet()" fill="solid" expand="full" size="large">KAYDET</ion-button>
 
 </div>

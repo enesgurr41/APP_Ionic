@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="text-align: center; width: 100%;">Kullanıcı Giriş Ekranı</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleDarkMode()">
+        <ion-icon name="moon" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="container"  *ngIf="screen == 'signin'">
+    <h1 class="heading">🛳️ KUMPORT<br><br></h1>
+    <p class="para">Giriş Yap</p>
+    <form [formGroup]="formData">
+      <ion-item lines="none" class="ion-item">
+        <fieldset  class="input-item">
+          <legend>Email</legend> 
+          <ion-input formControlName="email" type="email" placeholder="name@domain.com"></ion-input>
+        </fieldset>
+      </ion-item>
+      <ion-item lines="none" class="ion-item">
+        <fieldset class="input-item">
+          <legend>Şifre</legend> 
+          <ion-input formControlName="password" type="password" placeholder="*******"></ion-input>
+        </fieldset>
+      </ion-item>
+      <ion-button class="login-button" (click)="login()" expand="block">Giriş</ion-button>
+    </form>
+  </div>
+</ion-content>

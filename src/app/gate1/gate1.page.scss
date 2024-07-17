@@ -1,0 +1,145 @@
+ion-textarea.custom {
+  --background: #900505;
+  --color: #fff;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --placeholder-color: #ddd;
+  --placeholder-opacity: 0.8;
+}
+
+.input-item{
+  padding-left: 20px;
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #eccccc;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+ &:focus-within {
+  border: 4px solid #ab0000;
+  
+}
+  ion-input{
+      margin-top: -10px;
+  }
+}
+
+.input-item{
+  padding-left: 30px;
+  width: 100%;
+  border-radius: 40px;
+  border: 2px solid #eccccc;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+ &:focus-within {
+  border: 4px solid #ab0000;
+}
+  ion-input{
+      margin-top: -12px;
+  }
+  .yanyana {
+      float: left;
+      }
+      .seal{
+        float: left;
+        
+      }
+      ion-checkbox {
+        --size: 32px;
+        --checkbox-background-checked: #6815ec;
+      }
+      
+      ion-checkbox::part(container) {
+        border-radius: 6px;
+        border: 2px solid #e79898;
+      }
+      ion-textarea.custom {
+        --background: #900505;
+        --color: #fff;
+        --padding-end: 10px;
+        --padding-start: 10px;
+        --placeholder-color: #ddd;
+        --placeholder-opacity: 0.8;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      
+      .input-item {
+        padding-left: 20px;
+        width: 100%;
+        border-radius: 12px;
+        border: 2px solid #eccccc;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+      }
+      
+      .input-item:focus-within {
+        border: 4px solid #ab0000;
+      }
+      
+      .input-item ion-input {
+        margin-top: -10px;
+      }
+      
+      .yanyana {
+        display: flex;
+        justify-content: space-between;
+        max-width: 500px;
+        width: 100%;
+      }
+      
+      .input-item-container {
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .dsada {
+        background-color: red;
+      }
+      
+      .input-item-container:last-child {
+        margin-right: 0;
+      }
+      
+      .checkbox-group {
+        display: flex;
+        justify-content: space-between;
+        max-width: 500px;
+        width: 100%;
+      }
+      
+      .custom-radio-group {
+        display: flex;
+        justify-content: space-between;
+        max-width: 500px;
+        width: 100%;
+      }
+      
+      .custom-radio-group ion-radio {
+        --size: 32px;
+        --border-radius: 50%;
+        --background: #ab0000;
+        --color-checked: #fff;
+      }
+      
+      .custom-radio-group .radio-label {
+        font-size: 1.5em;
+        white-space: nowrap;
+        text-align: center;
+        flex: 1;
+        margin: 0 10px;
+      }   
+      .RadioBut{
+        color: black;
+        size: 32px;
+        border-radius: 50%;
+        background: #ab0000;
+        
+      }
+
+    } 

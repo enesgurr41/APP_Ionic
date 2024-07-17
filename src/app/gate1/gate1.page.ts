@@ -47,7 +47,7 @@ export class Gate1Page implements OnInit {
     this.navCtrl.back();
   }
   goToCheckOut() {
-    this.navCtrl.navigateBack('/auth-component');
+    this.router.navigateByUrl('');
   }
   goToGate() {
     this.navCtrl.navigateForward('/gate');

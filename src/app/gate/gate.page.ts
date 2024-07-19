@@ -5,7 +5,6 @@ import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-gate',
   templateUrl: 'gate.page.html',
-  styleUrls: ['gate.page.scss'],
 })
 export class GatePage {
   selectedGate: string = '';

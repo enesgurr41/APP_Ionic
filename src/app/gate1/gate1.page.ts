@@ -6,7 +6,6 @@ import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-gate1',
   templateUrl: './gate1.page.html',
-  styleUrls: ['./gate1.page.scss'],
 })
 export class Gate1Page implements OnInit {
 
